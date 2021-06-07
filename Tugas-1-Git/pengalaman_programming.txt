@@ -1,0 +1,3 @@
+Saya adalah mahasiswa teknik informatika semester akhir, sudah mengikuti beberapa kelas di Sanbercode, di antaranya, react native,
+microservices dengan python,dan nodejs dengan adonis. Terkadang suka bermain dengan object detection menggunakan raspberry pi, opencv, dan tensorflow
+
