@@ -1,0 +1,71 @@
+.bungkus { 
+    overflow:hidden;
+  }
+  
+  .bungkus div {
+     height: 100vh;
+     border: 0;
+  }
+  #atas {
+    background-color: #e4d0c3;
+    float:left; 
+    width:40%;
+  }
+  #bawah { 
+    background-color: 	#4e7377;
+    float: right;
+    width: 60%;
+  }
+  #bawah h1{
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 3em;
+      color: 	#d3b19c	;
+  }
+  /* responsive */
+  @media screen and (max-width: 800px) {
+     #atas { 
+      float: none;
+      margin-right:0;
+      width:100%;
+      border:0;
+      height: 50vh;
+    }
+    #bawah{
+        height: 50vh;
+        width:100%;
+    }
+  }
+  .button {
+    background-color: 	cyan;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  #foto{
+    width: 200px;
+    height: 200px;
+    object-fit: none;
+    padding-top: 50px;
+  }
+  .tengah{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+  }
+
+  #bio{
+    background-color: darkgrey;
+    height: 40px;
+  }
+
+  #penjelasan{
+    background-color: darkgray;
+    height: 70px;
+  }
