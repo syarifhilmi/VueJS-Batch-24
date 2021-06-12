@@ -79,3 +79,37 @@ var bulan = 12
 var tahun = 2020
 
 next_date(tanggal, bulan, tahun) // output : 1 Januari 2021
+
+console.log()
+
+// soal 2
+// sebetulnya ada yang pendek pake str.split(), namun saya pikir ini sedang menguji looping, jadi membuat kodingannya seperti ini
+function jumlah_kata(kalimat) {
+    temp = []
+    hasil = []
+    panjang = kalimat.length
+    for (var i = 0; i < panjang; i++) {
+        if (kalimat[i] == " ") {
+            if (temp.length > 0) {
+                hasil.push(temp)
+            }
+            temp = []
+        }
+        else if (i == panjang - 1) {
+            temp.push(kalimat[i])
+            hasil.push(temp)
+            temp = []
+        }
+        else {
+            temp.push(kalimat[i])
+        }
+    }
+    return console.log(hasil.length)
+}
+
+var kalimat_1 = " Halo nama saya Muhammad Iqbal Mubarok "
+var kalimat_2 = "Saya Iqbal"
+
+
+jumlah_kata(kalimat_1) // 6
+jumlah_kata(kalimat_2) // 2
